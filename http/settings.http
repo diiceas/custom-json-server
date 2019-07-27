@@ -1,0 +1,10 @@
+GET http://localhost:3000/settings
+
+###
+
+PUT http://localhost:3000/settings
+Content-Type: application/json
+
+{
+    "background": {"color": "green"}
+}
